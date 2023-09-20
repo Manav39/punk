@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  background-color: #FFD36D;
+  min-height: 100vh;
+}
+
+.sidebar__label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  background-color: var(--surface-100);
+}
+
+.sidebar__label--logo {
+  height: 50px;
+  width: 50px;
+}
+
+.sidebar__label--title {
+  color: #029BC8;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  font-weight: 600;
+}
